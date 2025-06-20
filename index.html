@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <title>鳳凰宮線上求籤</title>
+  <style>
+    body {
+      font-family: "Noto Sans TC", sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #fffbe8;
+      color: #333;
+      font-size: 1.5rem;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .typing {
+      display: inline-block;
+      border-right: 2px solid #666;
+      white-space: nowrap;
+      overflow: hidden;
+      animation: typing 3s steps(16), blink 0.7s step-end infinite;
+    }
+
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 16ch; }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }
+  </style>
+  <script>
+    const links = [
+      "https://youtu.be/OActMqiLPIg?si=Yhygd4xKvB71bd8O",
+      "https://youtu.be/obUIJLujkhc?si=h9Y3GLGxzmMjZcGx",
+      "https://youtu.be/sDb4Ee4VI5k?si=gYn8Os8rwu7BFptD",
+      "https://youtu.be/xYloJwQZGBc?si=qYm3kzRMDVE15wIs",
+      "https://youtu.be/6xyIsCYO9ww?si=wbNUtwg6HhrQPb3W",
+      "https://youtu.be/EA7-85NYi_w?si=VsV_Gtj_CQLC209M",
+      "https://www.youtube.com/watch?v=KNZclUegYFQ",
+      "https://music.youtube.com/watch?v=omvw2oPkrpQ&si=kH6lPk09qtmKk2_d",
+      "https://music.youtube.com/watch?v=Lujw3JCa4q0&si=TQjeAs2vv0LL6buz",
+      "https://music.youtube.com/watch?v=UPfbst8TdCo&si=bkS2QJRTAvvxyWXU",
+      "https://music.youtube.com/watch?v=UPfbst8TdCo&si=X6NqYtTb5zKUEvaj",
+      "https://music.youtube.com/watch?v=HiEayi4N1Yc&si=XQuLjBOExJIOWVLt",
+      "https://music.youtube.com/watch?v=OBC2-aVwcds&si=xKDOz0TT_AKU9t_U",
+      "https://music.youtube.com/watch?v=HiEayi4N1Yc&si=ifvQegXh9-n-H2BB",
+      "https://music.youtube.com/watch?v=3U0gKepbxZo&si=tr-w5jAkL5WlDOEA",
+      "https://music.youtube.com/watch?v=omvw2oPkrpQ&si=hQ5K6S7zHNPEENM7",
+      "https://music.youtube.com/watch?v=qr2rXPQi3J4&si=NeEBxFyj-0CujRsq",
+      "https://www.youtube.com/watch?v=bIQkwB_VPoM",
+      "https://youtu.be/FeCznogyAy0?si=Kllom1KuiSZ6ISOG",
+      "https://www.youtube.com/watch?v=g-6AqB6Yt5g"
+    ];
+
+    const pick = links[Math.floor(Math.random() * links.length)];
+
+    setTimeout(() => {
+      window.location.href = pick;
+    }, 4000); // 4秒後跳轉
+  </script>
+</head>
+<body>
+  <div>
+    <div class="typing">🌟 求籤中⋯⋯請靜候神諭</div>
+    <p style="margin-top: 1em;">鳳凰宮少年進香團，出發！</p>
+  </div>
+</body>
+</html>
